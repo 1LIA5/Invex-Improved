@@ -12,9 +12,9 @@ Usage:
     cd Invex-Improved
     python invex.py
     
-type in what you want to search, highlight and copy the URL that you want.
+Type in what you want to search, highlight and copy the URL that you want.
 
-![cli preview](png.png)
+
 
 ### Beta v0.1
 
