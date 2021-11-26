@@ -2,7 +2,7 @@
     Invex-Improved v0.1 (beta) by 1LIA5
 
     Original Invex written by steelinferno
-
+    Python 3 needed for Invex-Improved
 '''
 
 from sys import argv, exit
@@ -61,7 +61,7 @@ for i in j:
     NUM.append(str(URL + 'watch?v=%s' % (i['videoId'])))
     TITLE.append(str(i['title']))
 
-print('\nPick a number to copy URL and play in youtube-dl:')
+print('\nPick a number to copy URL and play in MPV:')
 PICK = input(PROMPT)
 # Macbook
 if platform.system() == "Darwin":
