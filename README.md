@@ -20,16 +20,16 @@ Type in what you want to search, highlight and copy the URL that you want.
 
 ### Beta v0.1
 
-✅ Currently only works on Mac.
+- ✅ Currently only works on Mac.
 
 ### To do:
 
-🔳 Add arg for only link copy
-🔳 Add arg for only sound
-🔳 Traffic network trough Tor (optional)
-🔳 Support for Linux
-🔳 Support for Windows
-🔳 Download link with youtube-dl
-🔳 Improve error exception and error handling
-🔳 Add man page
+- 🔳 Add arg for only link copy
+- 🔳 Add arg for only sound
+- 🔳 Traffic network trough Tor (optional)
+- 🔳 Support for Linux
+- 🔳 Support for Windows
+- 🔳 Download link with youtube-dl
+- 🔳 Improve error exception and error handling
+- 🔳 Add man page
 
