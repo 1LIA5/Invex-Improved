@@ -29,7 +29,6 @@ else:
 
 # print search query URL
 SQ = URL + 'search?q=' + ISQ # SQ = search query
-print(SQ)
 
 # get API
 API = URL + 'api/v1/search?q=' + ISQ
@@ -63,12 +62,24 @@ for i in j:
 
 print('\nPick a number to copy URL and play in MPV:')
 PICK = input(PROMPT)
+
 # Macbook
 if platform.system() == "Darwin":
     pyperclip.copy(NUM[int(PICK)])
     try:
         os.system(f"mpv {NUM[int(PICK)]}")
-    except: exit()
+    except "mpv: command not found":
+        mpv_install = input(f"{PROMPT}MPV not installed. Install MPV? ")
+        if mpv_install.upper() == "Y":
+            print(f"{PROMPT}MPV being installed with Brew..")
+            os.system(' /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ')
+            os.system('brew install mpv')
+            ## to do: turn into a loop after installation of brew and mpv.
+
+        elif mpv_install.upper() == "N":
+            exit()
+        else:
+            print("Invalid input")
 # Windows
 
 # Linux
