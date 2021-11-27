@@ -10,9 +10,11 @@ Usage:
 
     git clone https://github.com/1LIA5/Invex-Improved.git
     cd Invex-Improved
-    python invex.py
+    python3 invex-improved.py
     
 Type in what you want to search, highlight and copy the URL that you want.
+
+![Invex-Improved Example Image](https://github.com/1LIA5/Invex-Improved/blob/main/invex-improved-example.png)
 
 
 
