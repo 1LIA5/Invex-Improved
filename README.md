@@ -20,12 +20,16 @@ Type in what you want to search, highlight and copy the URL that you want.
 
 ### Beta v0.1
 
-Only works on Mac with MPV installed.
+✅ Currently only works on Mac.
 
-### Further plans
+### To do:
 
-- Support for Linux
-- Support for Windows
-- Download link with youtube-dl
-- Improve error exception and error handling
+🔳 Add arg for only link copy
+🔳 Add arg for only sound
+🔳 Traffic network trough Tor (optional)
+🔳 Support for Linux
+🔳 Support for Windows
+🔳 Download link with youtube-dl
+🔳 Improve error exception and error handling
+🔳 Add man page
 
